@@ -20,7 +20,7 @@ def getRange(data,theta):
 # Do some error checking for NaN and ubsurd values
 ## Your code goes here
   distance = data.ranges[theta]
-  if math.isnan(distance) or distance > 1.5:
+  if math.isnan(distance) or distance > 2.5:
     distance = 50
   return distance
 
@@ -56,15 +56,21 @@ def callback(data):
 
 	sum = 0
 #	print(data.intensities[180])
-	for i in range(180, 540, 10):
+	for i in range(180, 500, 10):
     #if(data.intensities[i]<.9):
-		sum += math.atan((getRange(data,i)*math.cos(math.radians((i-180)/4))-.75)/getRange(data,i)*math.sin(math.radians((i-180)/4)))
+		sum += (getRange(data,i)*math.cos(math.radians((i-180)/4))-0.75)/getRange(data,i)*math.sin(math.radians((i-180)/4))
     #else:
     # sum = sum + (getRange(data,i)*math.cos(math.radians((i-180)/4))-.5-getRange(180)-getRange(900))/getRange(data,i)*math.sin(math.radians((i-180)/4))
-		print (getRange(data,360))
+		#print (getRange(data,360))
 	error = sum / 36
-	d = getRange(data,540)	
+	d = getRange(data,360)	
+	print ("angle finder")
+	#print str(0) +" "+ str(getRange(data,0))
+	#print str(180) +" "+ str(getRange(data,180))
+	#print str(360) +" "+ str(getRange(data,360))
+	print str(540) +" "+ str(getRange(data,540))
 	
+	print(error)	
 	if(d<.75):
 		vel = 0
 	else:

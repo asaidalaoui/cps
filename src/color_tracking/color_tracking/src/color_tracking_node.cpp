@@ -258,7 +258,8 @@ void imageCallback(const sensor_msgs::ImageConstPtr& msg_frame, image_transport:
 		
     #endif
 
-	// cv::imshow("raw_input", cv_ori_img); // testing X-forwarding issues
+	//cv::imshow("raw_input", cv_ori_img); 
+
     // if you want to publish the color detection (we don't want to, so far)
     //cv_publish_img(pub, cv_color_detect_output);
 
@@ -300,6 +301,5 @@ int main(int argc, char **argv)
 
     image_transport::Subscriber sub = it.subscribe("rgb/image_rect", 1, boost::bind(imageCallback, _1, pub, circle_pub));
     ros::spin();
-    //cv::destroyWindow("view");
     
 }
