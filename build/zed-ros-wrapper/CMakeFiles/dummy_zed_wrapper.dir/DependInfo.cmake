@@ -6,6 +6,8 @@ SET(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
   "/home/ubuntu/catkin_ws/src/zed-ros-wrapper/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c" "/home/ubuntu/catkin_ws/build/zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c.o"
+  "/home/ubuntu/catkin_ws/src/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c" "/home/ubuntu/catkin_ws/build/zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/__/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c.o"
+  "/home/ubuntu/catkin_ws/src/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c" "/home/ubuntu/catkin_ws/build/zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/__/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c.o"
   "/home/ubuntu/catkin_ws/src/race/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c" "/home/ubuntu/catkin_ws/build/zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/__/race/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c.o"
   "/home/ubuntu/catkin_ws/src/race/CMakeFiles/3.4.1/CompilerIdC/CMakeCCompilerId.c" "/home/ubuntu/catkin_ws/build/zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/__/race/CMakeFiles/3.4.1/CompilerIdC/CMakeCCompilerId.c.o"
   "/home/ubuntu/catkin_ws/src/race/CMakeFiles/feature_tests.c" "/home/ubuntu/catkin_ws/build/zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/__/race/CMakeFiles/feature_tests.c.o"
@@ -14,6 +16,10 @@ SET(CMAKE_DEPENDS_CHECK_C
 SET(CMAKE_C_COMPILER_ID "GNU")
 SET(CMAKE_DEPENDS_CHECK_CXX
   "/home/ubuntu/catkin_ws/src/zed-ros-wrapper/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" "/home/ubuntu/catkin_ws/build/zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.o"
+  "/home/ubuntu/catkin_ws/src/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" "/home/ubuntu/catkin_ws/build/zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/__/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.o"
+  "/home/ubuntu/catkin_ws/src/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" "/home/ubuntu/catkin_ws/build/zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/__/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.o"
+  "/home/ubuntu/catkin_ws/src/color_tracking/color_tracking/src/color_tracking_node.cpp" "/home/ubuntu/catkin_ws/build/zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/__/color_tracking/color_tracking/src/color_tracking_node.cpp.o"
+  "/home/ubuntu/catkin_ws/src/color_tracking/src/color_tracking_node.cpp" "/home/ubuntu/catkin_ws/build/zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/__/color_tracking/src/color_tracking_node.cpp.o"
   "/home/ubuntu/catkin_ws/src/race/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" "/home/ubuntu/catkin_ws/build/zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/__/race/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.o"
   "/home/ubuntu/catkin_ws/src/race/CMakeFiles/3.4.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" "/home/ubuntu/catkin_ws/build/zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/__/race/CMakeFiles/3.4.1/CompilerIdCXX/CMakeCXXCompilerId.cpp.o"
   "/home/ubuntu/catkin_ws/src/race/CMakeFiles/feature_tests.cxx" "/home/ubuntu/catkin_ws/build/zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/__/race/CMakeFiles/feature_tests.cxx.o"

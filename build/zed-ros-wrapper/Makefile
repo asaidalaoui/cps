@@ -220,90 +220,6 @@ dynamic_reconfigure_generate_messages_py/fast:
 .PHONY : dynamic_reconfigure_generate_messages_py/fast
 
 # Convenience name for target.
-zed-ros-wrapper/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
-	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 zed-ros-wrapper/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-.PHONY : zed-ros-wrapper/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_cpp: zed-ros-wrapper/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-.PHONY : geometry_msgs_generate_messages_cpp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_cpp/fast:
-	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f zed-ros-wrapper/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make zed-ros-wrapper/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
-.PHONY : geometry_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-zed-ros-wrapper/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule:
-	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 zed-ros-wrapper/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-.PHONY : zed-ros-wrapper/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_lisp: zed-ros-wrapper/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-.PHONY : geometry_msgs_generate_messages_lisp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_lisp/fast:
-	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f zed-ros-wrapper/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make zed-ros-wrapper/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
-.PHONY : geometry_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-zed-ros-wrapper/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
-	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 zed-ros-wrapper/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-.PHONY : zed-ros-wrapper/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_py: zed-ros-wrapper/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-.PHONY : geometry_msgs_generate_messages_py
-
-# fast build rule for target.
-geometry_msgs_generate_messages_py/fast:
-	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f zed-ros-wrapper/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make zed-ros-wrapper/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
-.PHONY : geometry_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-zed-ros-wrapper/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule:
-	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 zed-ros-wrapper/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-.PHONY : zed-ros-wrapper/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_cpp: zed-ros-wrapper/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-.PHONY : sensor_msgs_generate_messages_cpp
-
-# fast build rule for target.
-sensor_msgs_generate_messages_cpp/fast:
-	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f zed-ros-wrapper/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make zed-ros-wrapper/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
-.PHONY : sensor_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-zed-ros-wrapper/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule:
-	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 zed-ros-wrapper/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-.PHONY : zed-ros-wrapper/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_lisp: zed-ros-wrapper/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-.PHONY : sensor_msgs_generate_messages_lisp
-
-# fast build rule for target.
-sensor_msgs_generate_messages_lisp/fast:
-	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f zed-ros-wrapper/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make zed-ros-wrapper/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
-.PHONY : sensor_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-zed-ros-wrapper/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule:
-	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 zed-ros-wrapper/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-.PHONY : zed-ros-wrapper/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_py: zed-ros-wrapper/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-.PHONY : sensor_msgs_generate_messages_py
-
-# fast build rule for target.
-sensor_msgs_generate_messages_py/fast:
-	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f zed-ros-wrapper/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make zed-ros-wrapper/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
-.PHONY : sensor_msgs_generate_messages_py/fast
-
-# Convenience name for target.
 zed-ros-wrapper/CMakeFiles/zed_wrapper_gencfg.dir/rule:
 	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 zed-ros-wrapper/CMakeFiles/zed_wrapper_gencfg.dir/rule
 .PHONY : zed-ros-wrapper/CMakeFiles/zed_wrapper_gencfg.dir/rule
@@ -378,6 +294,150 @@ CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.s: CMakeFiles/2.8.12.2/Comp
 CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s:
 	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/build.make zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
 .PHONY : CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
+
+__/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.o: __/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c.o
+.PHONY : __/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.o
+
+# target to build an object file
+__/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c.o:
+	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/build.make zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/__/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c.o
+.PHONY : __/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c.o
+
+__/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.i: __/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c.i
+.PHONY : __/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.i
+
+# target to preprocess a source file
+__/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c.i:
+	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/build.make zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/__/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c.i
+.PHONY : __/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c.i
+
+__/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.s: __/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c.s
+.PHONY : __/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.s
+
+# target to generate assembly for a file
+__/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c.s:
+	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/build.make zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/__/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c.s
+.PHONY : __/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c.s
+
+__/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.o: __/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
+.PHONY : __/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.o
+
+# target to build an object file
+__/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.o:
+	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/build.make zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/__/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
+.PHONY : __/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
+
+__/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.i: __/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
+.PHONY : __/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.i
+
+# target to preprocess a source file
+__/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.i:
+	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/build.make zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/__/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
+.PHONY : __/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
+
+__/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.s: __/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
+.PHONY : __/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.s
+
+# target to generate assembly for a file
+__/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s:
+	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/build.make zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/__/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
+.PHONY : __/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
+
+__/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.o: __/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c.o
+.PHONY : __/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.o
+
+# target to build an object file
+__/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c.o:
+	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/build.make zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/__/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c.o
+.PHONY : __/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c.o
+
+__/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.i: __/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c.i
+.PHONY : __/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.i
+
+# target to preprocess a source file
+__/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c.i:
+	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/build.make zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/__/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c.i
+.PHONY : __/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c.i
+
+__/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.s: __/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c.s
+.PHONY : __/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.s
+
+# target to generate assembly for a file
+__/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c.s:
+	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/build.make zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/__/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c.s
+.PHONY : __/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c.s
+
+__/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.o: __/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
+.PHONY : __/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.o
+
+# target to build an object file
+__/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.o:
+	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/build.make zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/__/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
+.PHONY : __/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
+
+__/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.i: __/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
+.PHONY : __/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.i
+
+# target to preprocess a source file
+__/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.i:
+	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/build.make zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/__/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
+.PHONY : __/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
+
+__/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.s: __/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
+.PHONY : __/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.s
+
+# target to generate assembly for a file
+__/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s:
+	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/build.make zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/__/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
+.PHONY : __/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
+
+__/color_tracking/color_tracking/src/color_tracking_node.o: __/color_tracking/color_tracking/src/color_tracking_node.cpp.o
+.PHONY : __/color_tracking/color_tracking/src/color_tracking_node.o
+
+# target to build an object file
+__/color_tracking/color_tracking/src/color_tracking_node.cpp.o:
+	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/build.make zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/__/color_tracking/color_tracking/src/color_tracking_node.cpp.o
+.PHONY : __/color_tracking/color_tracking/src/color_tracking_node.cpp.o
+
+__/color_tracking/color_tracking/src/color_tracking_node.i: __/color_tracking/color_tracking/src/color_tracking_node.cpp.i
+.PHONY : __/color_tracking/color_tracking/src/color_tracking_node.i
+
+# target to preprocess a source file
+__/color_tracking/color_tracking/src/color_tracking_node.cpp.i:
+	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/build.make zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/__/color_tracking/color_tracking/src/color_tracking_node.cpp.i
+.PHONY : __/color_tracking/color_tracking/src/color_tracking_node.cpp.i
+
+__/color_tracking/color_tracking/src/color_tracking_node.s: __/color_tracking/color_tracking/src/color_tracking_node.cpp.s
+.PHONY : __/color_tracking/color_tracking/src/color_tracking_node.s
+
+# target to generate assembly for a file
+__/color_tracking/color_tracking/src/color_tracking_node.cpp.s:
+	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/build.make zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/__/color_tracking/color_tracking/src/color_tracking_node.cpp.s
+.PHONY : __/color_tracking/color_tracking/src/color_tracking_node.cpp.s
+
+__/color_tracking/src/color_tracking_node.o: __/color_tracking/src/color_tracking_node.cpp.o
+.PHONY : __/color_tracking/src/color_tracking_node.o
+
+# target to build an object file
+__/color_tracking/src/color_tracking_node.cpp.o:
+	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/build.make zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/__/color_tracking/src/color_tracking_node.cpp.o
+.PHONY : __/color_tracking/src/color_tracking_node.cpp.o
+
+__/color_tracking/src/color_tracking_node.i: __/color_tracking/src/color_tracking_node.cpp.i
+.PHONY : __/color_tracking/src/color_tracking_node.i
+
+# target to preprocess a source file
+__/color_tracking/src/color_tracking_node.cpp.i:
+	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/build.make zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/__/color_tracking/src/color_tracking_node.cpp.i
+.PHONY : __/color_tracking/src/color_tracking_node.cpp.i
+
+__/color_tracking/src/color_tracking_node.s: __/color_tracking/src/color_tracking_node.cpp.s
+.PHONY : __/color_tracking/src/color_tracking_node.s
+
+# target to generate assembly for a file
+__/color_tracking/src/color_tracking_node.cpp.s:
+	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/build.make zed-ros-wrapper/CMakeFiles/dummy_zed_wrapper.dir/__/color_tracking/src/color_tracking_node.cpp.s
+.PHONY : __/color_tracking/src/color_tracking_node.cpp.s
 
 __/race/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.o: __/race/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c.o
 .PHONY : __/race/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.o
@@ -610,17 +670,11 @@ help:
 	@echo "... dynamic_reconfigure_generate_messages_lisp"
 	@echo "... dynamic_reconfigure_generate_messages_py"
 	@echo "... edit_cache"
-	@echo "... geometry_msgs_generate_messages_cpp"
-	@echo "... geometry_msgs_generate_messages_lisp"
-	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... install"
 	@echo "... install/local"
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... sensor_msgs_generate_messages_cpp"
-	@echo "... sensor_msgs_generate_messages_lisp"
-	@echo "... sensor_msgs_generate_messages_py"
 	@echo "... test"
 	@echo "... zed_wrapper_gencfg"
 	@echo "... zed_wrapper_node"
@@ -630,6 +684,24 @@ help:
 	@echo "... CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.o"
 	@echo "... CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.i"
 	@echo "... CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.s"
+	@echo "... __/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.o"
+	@echo "... __/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.i"
+	@echo "... __/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.s"
+	@echo "... __/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.o"
+	@echo "... __/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.i"
+	@echo "... __/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.s"
+	@echo "... __/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.o"
+	@echo "... __/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.i"
+	@echo "... __/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.s"
+	@echo "... __/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.o"
+	@echo "... __/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.i"
+	@echo "... __/color_tracking/color_tracking/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.s"
+	@echo "... __/color_tracking/color_tracking/src/color_tracking_node.o"
+	@echo "... __/color_tracking/color_tracking/src/color_tracking_node.i"
+	@echo "... __/color_tracking/color_tracking/src/color_tracking_node.s"
+	@echo "... __/color_tracking/src/color_tracking_node.o"
+	@echo "... __/color_tracking/src/color_tracking_node.i"
+	@echo "... __/color_tracking/src/color_tracking_node.s"
 	@echo "... __/race/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.o"
 	@echo "... __/race/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.i"
 	@echo "... __/race/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.s"

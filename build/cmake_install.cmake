@@ -118,6 +118,7 @@ IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   INCLUDE("/home/ubuntu/catkin_ws/build/gtest/cmake_install.cmake")
   INCLUDE("/home/ubuntu/catkin_ws/build/race/cmake_install.cmake")
+  INCLUDE("/home/ubuntu/catkin_ws/build/color_tracking/cmake_install.cmake")
   INCLUDE("/home/ubuntu/catkin_ws/build/zed-ros-wrapper/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
