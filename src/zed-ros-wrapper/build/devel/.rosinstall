@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ubuntu/catkin_ws/src/zed-ros-wrapper/build/devel/setup.sh

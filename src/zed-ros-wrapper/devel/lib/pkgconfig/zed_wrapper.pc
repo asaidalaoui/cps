@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/catkin_ws/src/zed-ros-wrapper/devel
+
+Name: zed_wrapper
+Description: Description of zed_wrapper
+Version: 0.1.0
+Cflags: -I/home/ubuntu/catkin_ws/src/zed-ros-wrapper/devel/include
+Libs: -L/home/ubuntu/catkin_ws/src/zed-ros-wrapper/devel/lib 
+Requires: roscpp rosconsole sensor_msgs opencv2 cv_bridge image_transport dynamic_reconfigure
