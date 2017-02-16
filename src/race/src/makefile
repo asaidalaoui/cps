@@ -16,3 +16,6 @@ kill:
 
 talker:
 	rosrun race talker.py
+
+keyboard:
+	rosrun race keyboard.py
