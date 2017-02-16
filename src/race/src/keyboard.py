@@ -44,6 +44,11 @@ while key != ord('q'):
 	elif key == ord('t'):
 		stdscr.clrtoeol()
 		stdscr.refresh()
+        
+        stdscr.addstr(2, 20, "Type s to select speed (0 to 50)\n")
+        stdscr.addstr(5,20, "Type t to select angle (-100 to 100)\n")
+        stdscr.addstr(8,20, "Type c to run in a circle\n")
+            
 		stdscr.addstr(2,20, "Enter the angle: ")
 		param = stdscr.getstr()
 		left = int(param)
