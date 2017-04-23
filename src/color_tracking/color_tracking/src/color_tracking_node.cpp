@@ -93,7 +93,7 @@ string report_status(cv::Mat & raw_img, bool circle_found, cv::Point center, flo
     if (circle_found){
 		ostringstream ss;
 		ss << radius;
-		msg = "Detected";
+		msg = "Detected "+ ss.str();
         dir = rel_location(center, raw_img.size());
     }
     else{
@@ -112,10 +112,11 @@ void circle_data (cv::Mat img, cv::Point center, int radius){
     //make a cross
     cv::line(img,cv::Point(center.x - radius, center.y - radius), cv::Point(center.x + radius, center.y + radius), cv::Scalar(0,255,0), 1);
     cv::line(img,cv::Point(center.x - radius, center.y + radius), cv::Point(center.x + radius, center.y - radius), cv::Scalar(0,255,0), 1);
+	//cv::imshow ("detected", img);
 	// publish circle radious
 }
 
-void detectCircles (const cv::Mat& input_img, cv::Mat& raw_img, cv::Point &center, bool &detected){
+void detectCircles (const cv::Mat& input_img, cv::Mat& raw_img, cv::Point &center, bool &detected, float & rad){
 
     // vector of circle objects
     vector<cv::Vec3f> circles;
@@ -126,11 +127,15 @@ void detectCircles (const cv::Mat& input_img, cv::Mat& raw_img, cv::Point &cente
     cv::HoughCircles(input_img, circles, CV_HOUGH_GRADIENT, 1, input_img.rows/12, myMax(param1,1), myMax(param2,1), 0, 0);
 
     if (circles.size() > 0){
-        detected = true;
+        detected = false;
         // hard coded to only render 1 circle  change 1 to  circles.size() or your favorite number of circles
          	for(size_t current_circle = 0; current_circle < 1; ++current_circle) {
-            		center = cv::Point(round(circles[current_circle][0]), round(circles[current_circle][1]));
-                    circle_data(raw_img, center, round(circles[current_circle][2]));
+					rad = circles[current_circle][2];
+					if (rad > 5.0){
+							detected = true;
+							center = cv::Point(round(circles[current_circle][0]), round(circles[current_circle][1]));
+							circle_data(raw_img, center, round(circles[current_circle][2]));
+					}	
             }
     }
 }
@@ -208,7 +213,7 @@ string cv_color_tracking(const cv::Mat &imgHSV, cv::Mat &imgThresholded_red_1, c
     cv::Point center;
     bool circle_detected = false;
 	float rad = 0;
-    detectCircles(imgThresholded_red_2, Raw, center, circle_detected);
+    detectCircles(imgThresholded_red_2, Raw, center, circle_detected, rad);
 	
     return report_status(Raw, circle_detected, center, rad);
 
@@ -253,7 +258,7 @@ void imageCallback(const sensor_msgs::ImageConstPtr& msg_frame, image_transport:
 		
     #endif
 
-	//cv::imshow("raw_input", cv_ori_img); // testing X-forwarding issues
+	// cv::imshow("raw_input", cv_ori_img); // testing X-forwarding issues
     // if you want to publish the color detection (we don't want to, so far)
     //cv_publish_img(pub, cv_color_detect_output);
 
@@ -276,7 +281,7 @@ void imageCallback(const sensor_msgs::ImageConstPtr& msg_frame, image_transport:
 
 int main(int argc, char **argv)
 {
-    make_control();
+    //make_control();
 
     ros::init(argc, argv, "image_listener");
 
