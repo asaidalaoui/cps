@@ -238,6 +238,7 @@ void imageCallback(const sensor_msgs::ImageConstPtr& msg_frame, image_transport:
         ROS_ERROR("Could not convert from '%s' to 'bgr8'.", msg_frame->encoding.c_str());
     }
 
+
 	cv::Mat cv_blank_mat;
 	cv::Mat cv_color_detect_output;
 	cv::Mat img_HSV;
@@ -249,6 +250,10 @@ void imageCallback(const sensor_msgs::ImageConstPtr& msg_frame, image_transport:
 
     // color detection, no idea why we are using the ifdef (TA) did it.
     #ifdef COLOR_TRACKING
+
+//	int key =cv:: waitKey();
+//	cout << " you pressed the r key dawg " << key << endl;
+
     string msg = cv_color_tracking(img_HSV, cv_blank_mat, cv_color_detect_output, cv_ori_img);
 	std::stringstream ss;
 	ss << msg;
@@ -258,7 +263,7 @@ void imageCallback(const sensor_msgs::ImageConstPtr& msg_frame, image_transport:
 		
     #endif
 
-	//cv::imshow("raw_input", cv_ori_img); 
+	// cv::imshow("raw_input", cv_ori_img); 
 
     // if you want to publish the color detection (we don't want to, so far)
     //cv_publish_img(pub, cv_color_detect_output);
@@ -266,13 +271,12 @@ void imageCallback(const sensor_msgs::ImageConstPtr& msg_frame, image_transport:
     #ifdef MEASURE_TIME
     clock_t t_end = clock();
     double delta_time= double(t_end - t_begin) / CLOCKS_PER_SEC;
-    cout << "Delta_t = " << 1/delta_time << "\n";
+    // cout << "Delta_t = " << 1/delta_time << "\n";
     //t_begin = t_end;
     #endif
 
     // wait for "shutter" to have time to take a picture
-    cv::waitKey(30);
-
+    int k = cv::waitKey(30);
     #ifdef MEASURE_TIME
     t_begin = clock();
     #endif

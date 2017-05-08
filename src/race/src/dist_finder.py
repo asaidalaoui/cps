@@ -11,6 +11,8 @@ vel = 30
 
 pub = rospy.Publisher('error', pid_input, queue_size=10)
 distPub = rospy.Publisher('distance', String)
+frontDistPub = rospy.Publisher('front_distance', String)
+
 ##	Input: 	data: Lidar scan data
 ##			theta: The angle at which the distance is requried
 ##	OUTPUT: distance of scan at angle theta
@@ -58,19 +60,21 @@ def callback(data):
 #	print(data.intensities[180])
 	for i in range(180, 500, 10):
     #if(data.intensities[i]<.9):
-		sum += (getRange(data,i)*math.cos(math.radians((i-180)/4))-0.75)/getRange(data,i)*math.sin(math.radians((i-180)/4))
+		sum += (getRange(data,i)*math.cos(math.radians((i-180)/4))-.50)/getRange(data,i)*math.sin(math.radians((i-180)/4))
     #else:
     # sum = sum + (getRange(data,i)*math.cos(math.radians((i-180)/4))-.5-getRange(180)-getRange(900))/getRange(data,i)*math.sin(math.radians((i-180)/4))
 		#print (getRange(data,360))
 	error = sum / 36
-	d = getRange(data,360)	
-	print ("angle finder")
-	#print str(0) +" "+ str(getRange(data,0))
-	#print str(180) +" "+ str(getRange(data,180))
-	#print str(360) +" "+ str(getRange(data,360))
-	print str(540) +" "+ str(getRange(data,540))
-	
+
+	# side distance
+	d = getRange(data,400)	
+
+	# front distance
+	f_d = getRange(data,540)
+
+	print  "side dist: " + str(d) + " front dist: "  +" "+ str(f_d)
 	print(error)	
+
 	if(d<.75):
 		vel = 0
 	else:
@@ -78,8 +82,13 @@ def callback(data):
 
 	msg2 = String()
 	msg2.data = str(d)
-	# print(msg2)
+
+	front_dist = String()
+	front_dist.data = str(f_d)
+
 	distPub.publish(msg2)
+	frontDistPub.publish(front_dist)
+	
 
 	msg = pid_input()
 	msg.pid_error = error
